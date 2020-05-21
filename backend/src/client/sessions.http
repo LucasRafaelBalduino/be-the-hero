@@ -1,0 +1,8 @@
+@url = {{base_url}}/sessions
+
+POST {{url}}
+Content-Type: application/json
+
+{
+  "id": "3afe6f37"
+}

@@ -1,0 +1,15 @@
+@url = {{base_url}}/nogs
+
+GET {{url}}
+
+###
+POST {{url}}
+Content-Type: application/json
+
+{
+  "name": "Foo",
+  "email": "john@doe.com",
+  "whatsapp": "(99) 99999-9999",
+  "city": "Bar",
+  "uf": "BZ"
+}

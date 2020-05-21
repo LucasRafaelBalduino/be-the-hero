@@ -1,0 +1,4 @@
+@url = {{base_url}}/profile
+
+GET {{url}}
+Authorization: 3afe6f37

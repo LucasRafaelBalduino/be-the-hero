@@ -1,0 +1,21 @@
+@url = {{base_url}}/incidents
+
+GET {{url}}
+
+###
+GET {{url}}?page=2
+
+###
+POST {{url}}
+Content-Type: application/json
+Authorization: 3afe6f37
+
+{
+  "title": "Foo Bar Baz",
+  "description": "Lorem Ipsum",
+  "value": 9999
+}
+
+###
+DELETE {{url}}/1
+Authorization: 7a1a4c1f

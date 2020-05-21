@@ -1,0 +1,7 @@
+{
+  "rest-client.environmentVariables": {
+    "$shared": {
+      "base_url": "http://localhost:9501"
+    }
+  }
+}
